@@ -1,6 +1,6 @@
 CREATE database if not exists probas;
 USE probas if exists;
-CREATE table if not exists persoa(nome VARCHAR(30), apelido VARCHAR(30), nif CHAR(9));
+CREATE table if not exists persoa(persoa_id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(30), apelido VARCHAR(30), nif CHAR(9));
 
 
 DELIMITER $$
